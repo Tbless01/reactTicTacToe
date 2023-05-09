@@ -371,28 +371,7 @@ setTimeout(() => {
 }  
     }
     function tie(){ 
-    if( text !== text2 && text2 !== text3 && text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
-        setResult("Oh! It's a tie. Click RESTART to start again")
-    }
-       else if( text4 !== text5 && text5 !== text6    && text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
-        setResult("Oh! It's a tie. Click RESTART to start again")
-    }
-           else if( text !== text4 && text4 !== text7    && text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
-        setResult("Oh! It's a tie. Click RESTART to start again")
-    }
-           else if( text !== text5 && text5 !== text9    && text2!=="" && text3!=="" && text4!=="" && text6!=="" && text7!=="" && text8!==""){
-        setResult("Oh! It's a tie. Click RESTART to start again")
-    }
-           else if( text7 !== text8 && text8 !== text9    && text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
-        setResult("Oh! It's a tie. Click RESTART to start again")
-    }
-           else if( text2 !== text5 && text5 !== text8    && text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
-        setResult("Oh! It's a tie. Click RESTART to start again")
-    }
-           else if( text3 !== text6 && text6 !== text9    && text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
-        setResult("Oh! It's a tie. Click RESTART to start again")
-    }
-           else if( text3 !== text5 && text5 !== text7   && text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
+    if( text!=="" && text2!=="" && text3!=="" && text4!=="" && text5!=="" && text6!=="" && text7!=="" && text8!=="" && text9!==""){
         setResult("Oh! It's a tie. Click RESTART to start again")
     }
 }
